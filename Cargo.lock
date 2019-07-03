@@ -263,13 +263,7 @@ version = "0.0.0"
 dependencies = [
  "structopt 0.2.18 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-interface 0.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "wasmparser 0.30.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
-
-[[package]]
-name = "wasmparser"
-version = "0.30.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "wasmparser"
@@ -331,7 +325,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum version_check 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "914b1a6776c4c929a602fafd8bc742e06365d4bcbe48c30f9cca5824f70dc9dd"
 "checksum void 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
 "checksum wasm-interface 0.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "9a25fd2dbce660d9a1095e38fa3607c10c43e8ef5f09fbac3b583a769c31cfb9"
-"checksum wasmparser 0.30.0 (registry+https://github.com/rust-lang/crates.io-index)" = "566a9eefa2267a1a32af59807326e84191cdff41c3fc2efda0a790d821615b31"
 "checksum wasmparser 0.32.1 (registry+https://github.com/rust-lang/crates.io-index)" = "22d1801de30f112ddaf665291097694ee33a36d1cb414b53a921d05b3519674a"
 "checksum winapi 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)" = "f10e386af2b13e47c89e7236a7a14a086791a2b88ebad6df9bf42040195cf770"
 "checksum winapi-i686-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6"
