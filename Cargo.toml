@@ -1,0 +1,13 @@
+[package]
+name = "wasm-interface-cli"
+version = "0.0.0"
+authors = ["The Wasmer Engineering Team <engineering@wasmer.io>"]
+edition = "2018"
+repository = "https://github.com/wasmerio/wasm-interface-cli"
+description = "A CLI binary to verify wasm interfaces"
+license = "MIT"
+
+[dependencies]
+structopt = "0.2.15"
+wasm-interface = "0.0"
+wasmparser = "0.30.0"
