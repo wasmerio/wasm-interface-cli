@@ -10,4 +10,3 @@ license = "MIT"
 [dependencies]
 structopt = "0.2.15"
 wasm-interface = "0.0"
-wasmparser = "0.30.0"
