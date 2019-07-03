@@ -1,6 +1,6 @@
 # Wasm Interface CLI
 
-A command line to check Wasm modules against a set of [interfaces][wasm-interface-lib]
+A command line tool to check Wasm modules against a set of [interfaces][wasm-interface-lib]
 
 To use it, just run:
 
