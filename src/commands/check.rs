@@ -60,7 +60,9 @@ pub fn check(check_opt: CheckOpt) -> Result<(), String> {
         Err(wasm_interface::validate::WasmValidationError::InvalidWasm { error }) => {
             Err(format!("Wasm module is invalid: {}", error))
         }
-        Err(wasm_interface::validate::WasmValidationError::InterfaceViolated { errors }) => {
+        Err(wasm_interface::validate::WasmValidationError::InterfaceViolated { mut errors }) => {
+            // lazy hack to make output stable
+            errors.sort();
             Err(format!(
                 "Wasm interface violated, {} errors detected: {}",
                 errors.len(),
