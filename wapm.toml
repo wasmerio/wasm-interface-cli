@@ -1,0 +1,20 @@
+[package]
+name = "wasm-interface-cli"
+version = "0.0.1"
+description = "A tool for verifying Wasm modules against Wasm contracts"
+readme = "README.md"
+repository = "https://github.com/wasmerio/wasm-interface-cli"
+license = "MIT"
+
+[[module]]
+name = "wasm-interface"
+source = "target/wasm32-wasi/release/wasm-interface.wasm"
+abi = "wasi"
+
+[[module.interfaces]]
+name = "wasi"
+version = "0.0.0-unstable"
+
+[[command]]
+name = "wasm-interface"
+module = "wasm-interface"
