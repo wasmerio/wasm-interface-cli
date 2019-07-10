@@ -11,9 +11,8 @@ name = "wasm-interface"
 source = "target/wasm32-wasi/release/wasm-interface.wasm"
 abi = "wasi"
 
-[[module.interfaces]]
-name = "wasi"
-version = "0.0.0-unstable"
+[module.interfaces]
+wasi = "0.0.0-unstable"
 
 [[command]]
 name = "wasm-interface"
