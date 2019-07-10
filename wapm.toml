@@ -1,6 +1,6 @@
 [package]
 name = "wasm-interface-cli"
-version = "0.0.1"
+version = "0.0.2"
 description = "A tool for verifying Wasm modules against Wasm contracts"
 readme = "README.md"
 repository = "https://github.com/wasmerio/wasm-interface-cli"
