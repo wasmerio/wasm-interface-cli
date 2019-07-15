@@ -1,6 +1,6 @@
 [package]
 name = "wasm-interface-cli"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["The Wasmer Engineering Team <engineering@wasmer.io>"]
 edition = "2018"
 repository = "https://github.com/wasmerio/wasm-interface-cli"
@@ -9,4 +9,4 @@ license = "MIT"
 
 [dependencies]
 structopt = "0.2.15"
-wasm-interface = "0.0"
+wasm-interface = "0.1"
